@@ -3,7 +3,7 @@ int lastProcent;
 void checkUpdates(String updates[]) {
   String response;
 
-  if (httpRequest("https://alarm-map.sdl.pp.ua/firmware/premium/firmware/version.json", response)) {
+  if (httpRequest("https://raw.githubusercontent.com/danio273/alarm-map/main/web/version.json", response)) {
     DynamicJsonDocument doc(5000);
     deserializeJson(doc, response);
 

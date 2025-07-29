@@ -7,10 +7,6 @@ String html() {
       html+="<meta charset=\"UTF-8\">";
       html+="<title>Налаштування</title>";
       html+="<meta name=\"viewport\"content=\"width=device-width,initial-scale=1\">";
-      html+="<link rel=\"apple-touch-icon\"sizes=\"180x180\"href=\"https://alarm-map.sdl.pp.ua/firmware/premium/icon/apple-touch-icon.png\">";
-      html+="<link rel=\"icon\"type=\"image/png\"sizes=\"32x32\"href=\"https://alarm-map.sdl.pp.ua/firmware/premium/icon/favicon-32x32.png\">";
-      html+="<link rel=\"icon\"type=\"image/png\"sizes=\"16x16\"href=\"https://alarm-map.sdl.pp.ua/firmware/premium/icon/favicon-16x16.png\">";
-      html+="<link rel=\"manifest\"href=\"https://alarm-map.sdl.pp.ua/firmware/premium/icon/site.webmanifest\">";
     html+="</head>";
     html+="<style>";
       html+="html{";

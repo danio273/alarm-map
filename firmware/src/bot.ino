@@ -233,8 +233,8 @@ void newMsg(FB_msg& msg) {
       message += "💧 " + String(getHumidity()) + "%"; 
     }
 
-    String keyboard = "⚙️ Налаштування\n📄 Інструкція\n☎️ Cлужба підтримки\n💰 Підтримати розробника\n🔄 Рестарт";
-    String callback = "http://" + WiFi.localIP().toString() + "/, https://alarm-map.sdl.pp.ua/firmware/premium/instruction/, https://t.me/alarm_map_support, https://alarm-map.sdl.pp.ua/support, restart";
+    String keyboard = "⚙️ Налаштування\n📄 Інструкція\n☎️ Cлужба підтримки\n🔄 Рестарт";
+    String callback = "http://" + WiFi.localIP().toString() + "/, https://raw.githubusercontent.com/danio273/alarm-map/main/docs/manual.pdf, https://t.me/alarm_map_support, restart";
     
     bot.inlineMenuCallback(message, keyboard, callback);
   }
