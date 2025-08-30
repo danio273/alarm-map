@@ -1,5 +1,7 @@
 # SDL Alarm Map Premium
 
+![Maps](./assets/images/maps.png)
+
 > The project development is completed. This repository preserves the code as of July 16, 2024 (version 1.3.1). No further updates are planned, so failures and bugs may occur and will not be fixed. Provided for reference, development, and creating your own solutions.
 
 ## Description
